@@ -14,4 +14,7 @@ Gem::Specification.new do |gem|
   gem.name          = "repository_hosting_backup"
   gem.require_paths = ["lib"]
   gem.version       = RepositoryHostingBackup::VERSION
+
+  gem.add_dependency "slop"
+  gem.add_dependency "mechanize"
 end
