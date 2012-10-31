@@ -1,24 +1,29 @@
 # RepositoryHostingBackup
 
-TODO: Write a gem description
+Backs up all repositories in your RepositoryHosting.com account into the current folder.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+From git HEAD
 
-    gem 'repository_hosting_backup'
+     git clone https://github.com/utkarshkukreti/repository_hosting_backup.git
+     cd repository_hosting_backup
+     bundle install
+     rake install
 
-And then execute:
+or install using rubygems.org
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install repository_hosting_backup
+    gem install repository_hosting_backup
 
 ## Usage
 
-TODO: Write usage instructions here
+`cd` into a directory where you want all your repositories cloned.
+
+Run `rh-backup -s <subdomain> -u <username> -p <password>`
+
+All your repositories will be cloned or updated (if it's already cloned) in the current directory.
+
+(Tested only on MRI 1.9.3)
 
 ## Contributing
 
