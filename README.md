@@ -1,6 +1,6 @@
 # RepositoryHostingBackup
 
-Backs up all repositories in your RepositoryHosting.com account into the current folder.
+Backs up all repositories in your RepositoryHosting.com account into a folder.
 
 ## Installation
 
