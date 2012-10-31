@@ -4,9 +4,9 @@ require File.expand_path('../lib/repository_hosting_backup/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Utkarsh Kukreti"]
   gem.email         = ["utkarshkukreti@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Backs up all repositories in your RepositoryHosting.com account into the current folder}
+  gem.summary       = %q{Backs up all repositories in your RepositoryHosting.com account into the current folder}
+  gem.homepage      = "https://github.com/utkarshkukreti/repository_hosting_backup"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
