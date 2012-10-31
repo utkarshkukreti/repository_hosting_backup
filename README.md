@@ -11,6 +11,8 @@ From git HEAD
      bundle install
      rake install
 
+Don't forget to run `rbenv rehash` if using rbenv.
+
 or install using rubygems.org
 
     gem install repository_hosting_backup
